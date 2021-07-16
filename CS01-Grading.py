@@ -1,4 +1,7 @@
-A=int(input('คะแนนสอบ = '))
+score = int(input('input you score :'))
+mid = int(input('input you mid score :'))
+final = int(input('input you final score :'))
+A = (score+mid+final)
 if (80 <= A <= 100):
     print("เกรดที่คุณได้คือ A")
 elif (75 <= A < 80):
